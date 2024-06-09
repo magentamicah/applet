@@ -1,5 +1,4 @@
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
+
     // Find the first element with the class name "layoutContainer homepage"
     var targetDiv = document.querySelector('.layoutContainer.homepage');
     
@@ -10,4 +9,4 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.log('Element not found.');
     }
-});
+
